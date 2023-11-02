@@ -1,3 +1,12 @@
+
+/*----------------------------------
+Filename:config/app.js
+Author's name: Md Ripon Hossain
+StudentID: 301215985
+Web App name: Favourite_books
+--------------------------------------
+*/
+
 // moddules for node and express
 let createError = require('http-errors');
 let express = require('express');
@@ -42,12 +51,6 @@ app.use(express.static(path.join(__dirname, '../../client')));
 
 app.use('/', index);
 app.use('/books', books);
-let book = require('../models/books');
-
-const query = book.find().maxTime(30000); // Set to 30 seconds
-query.exec((err, result) => {
-    // Handle the result or error here
-});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

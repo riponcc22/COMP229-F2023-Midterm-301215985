@@ -1,3 +1,11 @@
+/*----------------------------------
+Filename:models/books.js
+Author's name: Md Ripon Hossain
+StudentID: 301215985
+Web App name: Favourite_books
+--------------------------------------
+*/
+
 let mongoose = require('mongoose');
 
 // create a model class

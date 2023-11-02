@@ -1,3 +1,13 @@
+
+/*----------------------------------
+Filename:routes/books.js
+Author's name: Md Ripon Hossain
+StudentID: 301215985
+Web App name: Favourite_books
+--------------------------------------
+*/
+
+
 // modules required for routing
 let express = require('express');
 let router = express.Router();
@@ -41,7 +51,7 @@ router.post('/add', (req, res, next) => {
     /*****************
      * ADD CODE HERE *
      *****************/
-
+//dectare variable
     let newBook=book({
       "Title":req.body.Title,
       "Description":req.body.Description,
@@ -50,7 +60,7 @@ router.post('/add', (req, res, next) => {
       "Genre":req.body.Genre
 
 });
-
+//create and add the new book 
 book.create(newBook,(err,book)=>{
   if(err)
   {console.log(err)
