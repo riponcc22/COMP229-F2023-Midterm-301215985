@@ -1,0 +1,7 @@
+//create book model
+let book = require('../models/books');
+
+const query = book.find().maxTime(30000); // Set to 30 seconds
+query.exec((err, result) => {
+    // Handle the result or error here
+});
