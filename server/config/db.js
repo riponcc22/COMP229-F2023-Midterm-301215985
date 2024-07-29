@@ -9,7 +9,7 @@ Web App name: Favourite_books
 module.exports = {
   
   //cloud MongoDB deployment ->
- // "URI":"mongodb+srv://ripon:Hd2tTcuHKLnhueNY@mongodbserver.0naknqc.mongodb.net/favourite_books"
+  "URI":"mongodb+srv://ripon:Hd2tTcuHKLnhueNY@mongodbserver.0naknqc.mongodb.net/favourite_books"
 
-  "URI":"mongodb+srv://ripon:pIhEfzZYeIwoJQ3T@mongodbserver.0naknqc.mongodb.net/favourite_books"
+ // "URI":"mongodb+srv://ripon:pIhEfzZYeIwoJQ3T@mongodbserver.0naknqc.mongodb.net/favourite_books"
 };
